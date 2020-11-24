@@ -10,7 +10,7 @@ function startTime() {
   m = checkTime(m);
   s = checkTime(s);
   document.getElementById('txt').innerHTML =
-  "Current date time of the container is "+h + ":" + m + ":" + s;
+  ""+y + ":" +o + ":" +d + " - " +h + ":" + m + ":" + s;
   var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
